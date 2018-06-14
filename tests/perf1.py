@@ -14,3 +14,4 @@ while True:  # start the infinite request loop
     resp = sock.recv(100)
     end = time.time()
     print(end-start)
+    
